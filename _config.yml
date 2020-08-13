@@ -50,7 +50,6 @@ use_disqus: false
 disqus_url: 
 
 # Miscellaneous
-google_analytics:
 favicon: /favicon.png
 #twitter:
 #google_plus:
