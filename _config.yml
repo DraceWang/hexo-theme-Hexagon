@@ -50,7 +50,7 @@ use_disqus: false
 disqus_url: 
 
 # Miscellaneous
-favicon: /favicon.png
+favicon: /favicon.png      #展示在标签上的小图标
 #twitter:
 #google_plus:
 #fb_admins:
