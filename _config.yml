@@ -24,6 +24,12 @@ linkedin_username:
 # Content
 excerpt_link: Read More
 fancybox: true
+#canvas-nest 点线粒子效果
+nest: true                                             #false 可以关闭点线粒子效果
+nest_line_color: "3,232,253 "            #线的颜色使用rgb，如红色（255，0，0）
+nest_point_color: "3,232,253"          #点的颜色使用rgb，如红色（255，0，0），建议与线颜色一致
+nest_opacity: 0.8                                    #透明度，1为不透明
+nest_count: 100                                         #密度
 
 # display widgets at the bottom of index pages (pagination == 2)
 #index_widgets:

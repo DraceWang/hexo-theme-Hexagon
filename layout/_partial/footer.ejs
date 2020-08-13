@@ -27,4 +27,6 @@
 
 <%- js('js/search_core')%>
 <%- js('js/script')%>
-<%- js('js/canvas-nest')%>
+<% if (theme.nest){ %>
+  <script type="text/javascript" color=<%= theme.nest_line_color %>  pointColor=<%= theme.nest_point_color %>  opacity=<%= theme.nest_opacity %>  count=<%= theme.nest_count %>  src="/js/canvas-nest.js"></script>
+<% } %>
