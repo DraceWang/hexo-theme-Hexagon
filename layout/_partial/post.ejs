@@ -119,3 +119,15 @@
 <%- css('css/' + theme.block_highlight) %>
 <script src="/js/highlight.min.js"></script>
 <script type="text/javascript"> hljs.initHighlightingOnLoad();</script>
+<% if (theme.use_valine){ %>
+  <div class="comment" style="width:70%; min-height: 80vh;margin: 0 auto;"></div>
+    <script>
+        new Valine({
+            av: AV, 
+            el: '.comment', 
+            app_id: '<%= theme.valine_appId %>', 
+            app_key: '<%= theme.valine_appKey %>',
+            placeholder: '<%= theme.valine_placeholder %>'
+        });
+    </script>
+<% } %>

@@ -43,14 +43,19 @@ nest_count: 100                                         #密度
 
 # 评论系统
 # 不要用别人的 uid, 自己去注册一个吧
-use_livere: true
+use_livere: false
 livere_uid: 
 
 use_disqus: false
 disqus_url: 
 
+use_valine: true
+valine_appId: ""
+valine_appKey: ""
+valine_placeholder: "随便写点什么吧~~"                               #在评论正文显示的hint
+
 # Miscellaneous
-favicon: /favicon.png      #展示在标签上的小图标
+favicon: /images/logo.gif      #展示在标签上的小图标
 #twitter:
 #google_plus:
 #fb_admins:
